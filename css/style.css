@@ -65,7 +65,6 @@ figure {
   background-repeat: no-repeat;
   height: 448px;
   background-size: cover;
-  /* padding: 0 15px; */
 }
 
 .container {
@@ -76,14 +75,8 @@ figure {
 }
 
 .header-top {
-  
-  
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   padding-top: 36px;
 }
@@ -99,14 +92,11 @@ figure {
 }
 
 .nav-list {
-  
-  
   display: flex;
 }
 
 .nav-item {
   margin-right: -2px;
-  /* ПП */
   color: white;
   text-transform: uppercase;
 }
@@ -139,33 +129,23 @@ figure {
 
 /* ================ MAIN ================ */
 .main-container {
-  
-  
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
 
   width: 1200px;
   padding: 64px 15px 0;
-  /* margin-top: 64px; */
-  /* 9.05 замечание */
 }
 
 .main {
   width: 778px;
-  
-  
+
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .main-card {
-  
-  
   display: flex;
   align-items: flex-start;
 }
@@ -173,14 +153,12 @@ figure {
 .main-card:not(:last-child) {
   margin-bottom: 60px;
 }
-/* 9.05 замечание */
 
 .card-img {
   /* width: 381px; */
   /* object-fit: contain; */
   /* height: 294px; */
 }
-/* 9.05 замечание */
 
 /* test не уверен, что стоит задавать картинке жесткие размеры(высоту), но без указания высоты при удалении вех блоков, расположенных ниже она тянется вниз, искажая пропорции */
 /* object-fit: contain; за исключением указания этого св-ва, но тогда картинка смещается вниз, хоть и сохраняет пропорции */
@@ -190,12 +168,9 @@ figure {
 }
 
 .card-list-links {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: flex;
 
   flex-wrap: wrap;
-  /* test не очень красиво выглядит, если тегов много,однако флекс-врап отрабатывает штатно */
 }
 
 .card-list-link {
@@ -222,7 +197,6 @@ figure {
 .card-title {
   margin-top: -4px;
   letter-spacing: -0.2px;
-  /* ПП */
   font-size: 20px;
   line-height: 24px;
   text-transform: uppercase;
@@ -243,7 +217,6 @@ figure {
 
 .date {
   margin-top: 26px;
-  /* пп */
 }
 
 .datetime {
@@ -254,7 +227,6 @@ figure {
 
 .author {
   margin-left: 11px;
-  /* пп */
   font-size: 12px;
   font-weight: 700;
   display: inline-block;
@@ -271,8 +243,6 @@ figure {
 
 .description-container > p {
   letter-spacing: 0.2px;
-  /* Почему-то некоторые блоки хорошо отображаются с РАЗНЫМ значением "letter-spacing" */
-  /* ПП */
   font-size: 15px;
   line-height: 22px;
   color: #0f0d0e;
@@ -281,24 +251,12 @@ figure {
 .description-container > p:not(:last-child) {
   margin-bottom: 10px;
 }
-/* 
-.description-additional {
-  margin-top: 10px;
-  font-size: 15px;
-  line-height: 22px;
-  color: #0f0d0e;
-} */
-/* в рамках ПП упразднен description-additional */
 
 /* ================ ASIDE ================ */
+
 .aside {
   width: 272px;
 }
-
-/* .aside-section-card {
-  display: flex;
-  flex-wrap: wrap;
-} */
 
 .aside-title {
   font-size: 14px;
@@ -307,12 +265,11 @@ figure {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  margin: -8px 0 17px 8px;
+  margin: 0 0 17px 8px;
 }
 
 .aside-title::after {
   margin: 4px auto 27px;
-  /* ПП */
   content: "";
   display: block;
   height: 3px;
@@ -321,8 +278,6 @@ figure {
 }
 
 .aside-card {
-  
-  
   align-items: flex-start;
   display: flex;
   margin-bottom: 22px;
@@ -334,21 +289,21 @@ figure {
 
 .aside-img {
   width: 70px;
-  /* ПП */
 }
 
 .aside-text {
   margin-left: 30px;
 }
 
-/* .aside-strange-one {
-  height: 70px; */
+.aside-strange-one {
+  height: 70px;
   /* -костыльный метод в рамках ПиксПерф, картинка вслед за текстом была почему-то прямоугольной */
-/* } */
+}
 
 .aside-datetime {
   display: block;
-  margin-left: -9px;
+  /* margin-left: -9px; */
+  /* отрицательный марджин */
   opacity: 0.541;
   font-size: 12px;
   color: #000000;
@@ -356,7 +311,8 @@ figure {
 
 .aside-card-title {
   margin-top: 4px;
-  margin-left: -8px;
+  /* margin-left: -8px; */
+  /* отрицательный марджин */
   letter-spacing: -0.3px;
   font-size: 14px;
   line-height: 18px;
@@ -381,13 +337,6 @@ figure {
 /* ================ FORM-SEARCH ================ */
 
 .form-search {
-  /* margin-top: 62px; */
-  /* margin-bottom: 59px; */
-  /* ПП  test*/
-  /* width: 300px; */
-  /* вроде надо было раскомментировать ширину 300*/
-  
-  
   display: flex;
 }
 
@@ -398,7 +347,6 @@ figure {
   height: 48px;
   border: none;
   background-color: #f4f7f6;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   outline: none;
 }
@@ -415,7 +363,6 @@ figure {
 }
 
 .search-button {
-  -ms-flex-negative: 0;
   flex-shrink: 0;
   width: 48px;
   height: 48px;
@@ -450,7 +397,6 @@ figure {
 
 .mailing-list-title::after {
   margin: 11px auto 0;
-  /* ПП */
   content: "";
   display: block;
   height: 3px;
@@ -493,7 +439,6 @@ figure {
 
 .tags-title {
   margin-top: -2px;
-  /* ПП */
   font-size: 14px;
   text-transform: uppercase;
   color: #0f0d0e;
@@ -504,7 +449,6 @@ figure {
 
 .tags-title::after {
   margin: 11px auto 0;
-  /* ПП */
   content: "";
   display: block;
   height: 3px;
@@ -513,10 +457,7 @@ figure {
 }
 
 .tags-list {
-  
-  
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -545,7 +486,6 @@ figure {
 }
 
 .themes-title {
-  /* ПП */
   text-align: center;
   font-size: 14px;
   text-transform: uppercase;
@@ -556,7 +496,6 @@ figure {
 
 .themes-title::after {
   margin: 11px auto 0;
-  /* ПП */
   content: "";
   display: block;
   height: 3px;
@@ -573,9 +512,7 @@ figure {
   margin-top: 20px;
 }
 .themes-item {
-  /* margin-top: 21px; */
   padding-bottom: 18px;
-  /* ПП */
   font-size: 14px;
   color: #000000;
   font-weight: 700;
@@ -601,9 +538,7 @@ figure {
 
 .footer {
   margin-top: 64px;
-  /* padding: 0 15px; */
 }
-/* 9.05 замечание */
 
 .footer-wrapper {
   width: 1170px;
@@ -616,14 +551,8 @@ figure {
 }
 
 .footer-list {
-  
-  
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
