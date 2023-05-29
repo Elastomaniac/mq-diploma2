@@ -133,12 +133,12 @@ figure {
 
 .trends {
   flex-direction: column;
-  align-items: center;
   display: flex;
   padding-top: 40px;
 }
 
 .trends-title {
+  align-self: center;
   text-transform: uppercase;
   font-size: 20px;
   color: #0f0d0e;
@@ -163,7 +163,6 @@ figure {
   position: relative;
   width: 410px;
   height: 319px;
-  z-index: 1;
 }
 
 .trends-card:before {
@@ -184,6 +183,7 @@ figure {
   position: relative;
   z-index: 3;
   color: #ffffff;
+  
 }
 
 .inner-title {
