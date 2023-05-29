@@ -163,6 +163,9 @@ figure {
   position: relative;
   width: 410px;
   height: 319px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0px 22px 16px 18px;
 }
 
 .trends-card:before {
@@ -183,14 +186,19 @@ figure {
   position: relative;
   z-index: 3;
   color: #ffffff;
-  
+  border: 3px solid #b59f5b;
+  padding-left: 38px;
+  padding-bottom: 12px;
 }
 
+.trends-inner:hover {
+  color: #b59f5b;
+}
 .inner-title {
-  color: white;
   text-transform: uppercase;
   font-size: 20px;
   line-height: 24px;
+  padding-right: 15px;
 }
 
 .trends-card {
@@ -219,6 +227,7 @@ figure {
   text-transform: uppercase;
   color: #b59f5b;
   font-weight: 700;
+  margin-right: 12px;
 }
 
 .span-inner-tag:hover {
