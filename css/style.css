@@ -67,7 +67,7 @@ figure {
   z-index: 3;
   background-image: url(../sources/img/banner-bg.jpg);
   background-repeat: no-repeat;
-  height: 448px;
+  height: 455px;
   background-size: cover;
 }
 
@@ -136,7 +136,7 @@ figure {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding-top: 48px;
+  padding-top: 40px;
 }
 
 .trends-title {
@@ -147,7 +147,7 @@ figure {
 }
 
 .trends-title::after {
-  margin: 11px auto 0;
+  margin: 8px auto 0;
   content: "";
   display: block;
   height: 3px;
@@ -180,17 +180,28 @@ figure {
 }
 
 .trends-inner {
+  position: relative;
   z-index: 3;
   color: #ffffff;
 }
 
 .inner-title {
   color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .span-inner-tag {
-  color: #ffffff;
-  z-index: 4;
+  font-size: 14px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #b59f5b;
+  font-weight: 700;
+}
+
+.span-inner-tag:hover {
+  text-decoration: underline;
 }
 /* ================ MAIN ================ */
 
