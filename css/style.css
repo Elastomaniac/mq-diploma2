@@ -135,7 +135,6 @@ figure {
   flex-direction: column;
   align-items: center;
   display: flex;
-  justify-content: center;
   padding-top: 40px;
 }
 
@@ -147,7 +146,7 @@ figure {
 }
 
 .trends-title::after {
-  margin: 8px auto 0;
+  margin: 8px auto 12px;
   content: "";
   display: block;
   height: 3px;
@@ -162,6 +161,8 @@ figure {
 
 .trends-card {
   position: relative;
+  width: 410px;
+  height: 319px;
   z-index: 1;
 }
 
@@ -190,6 +191,26 @@ figure {
   text-transform: uppercase;
   font-size: 20px;
   line-height: 24px;
+}
+
+.trends-card {
+  background-repeat: no-repeat;
+}
+
+.seedling-img {
+  background-image: url(../sources/img/trend1.jpg);
+}
+
+.cheese-img {
+  background-image: url(../sources/img/trend2.jpg);
+}
+
+.hiking-img {
+  background-image: url(../sources/img/trend3.jpg);
+}
+
+.lemons-img {
+  background-image: url(../sources/img/trend4.jpg);
 }
 
 .span-inner-tag {
