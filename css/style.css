@@ -270,6 +270,22 @@ p {
 .card-img1 {
   background-image: url(../sources/img/last-post1.jpg);
 }
+
+.card-img2 {
+  background-image: url(../sources/img/last-post2.jpg);
+}
+
+.card-img3 {
+  background-image: url(../sources/img/last-post3.jpg);
+}
+
+.card-img4 {
+  background-image: url(../sources/img/last-post4.jpg);
+}
+
+.card-img5 {
+  background-image: url(../sources/img/last-post5.jpg);
+}
 /* object-fit: contain; */
 /* height: 294px; */
 
@@ -402,6 +418,27 @@ p {
 
 .aside-img {
   width: 70px;
+  height: 70px;
+}
+
+.aside-img1 {
+  background-image: url(../sources/img/2.jpg);
+}
+
+.aside-img2 {
+  background-image: url(../sources/img/151.jpg);
+}
+
+.aside-img3 {
+  background-image: url(../sources/img/45.jpg);
+}
+
+.aside-img4 {
+  background-image: url(../sources/img/501.jpg);
+}
+
+.aside-img5 {
+  background-image: url(../sources/img/7.jpg);
 }
 
 .aside-text {
