@@ -242,7 +242,7 @@ p {
   margin-right: auto;
 
   max-width: 1200px;
-  padding: 51px 15px 0;
+  padding: 50px 15px 0;
 }
 
 .main {
@@ -385,6 +385,8 @@ p {
 
 .aside {
   width: 272px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .aside-title {
@@ -463,7 +465,7 @@ p {
   margin-top: 4px;
   /* margin-left: -8px; */
   /* отрицательный марджин */
-  letter-spacing: -0.3px;
+  letter-spacing: -0.5px;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -531,18 +533,15 @@ p {
 
 /* ================ MAILING LIST FORM ================ */
 .mailing-list {
-  /* margin-top: 59px; */
 }
 
 .mailing-list-title {
-  /* margin-top: 59px; */
-  /* ПП */
-  margin-bottom: 22px;
   text-align: center;
   font-size: 14px;
   text-transform: uppercase;
   color: #0f0d0e;
   font-weight: 700;
+  margin: 0;
 }
 
 .mailing-list-title::after {
