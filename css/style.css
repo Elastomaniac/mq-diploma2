@@ -241,8 +241,8 @@ figure {
   margin-left: auto;
   margin-right: auto;
 
-  width: 1200px;
-  padding: 64px 15px 0;
+  max-width: 1200px;
+  padding: 51px 15px 0;
 }
 
 .main {
@@ -262,10 +262,16 @@ figure {
 }
 
 .card-img {
-  /* width: 381px; */
-  /* object-fit: contain; */
-  /* height: 294px; */
+  background-repeat: no-repeat;
+  width: 381px;
+  height: 294px;
 }
+
+.card-img1 {
+  background-image: url(../sources/img/last-post1.jpg);
+}
+/* object-fit: contain; */
+/* height: 294px; */
 
 /* test не уверен, что стоит задавать картинке жесткие размеры(высоту), но без указания высоты при удалении вех блоков, расположенных ниже она тянется вниз, искажая пропорции */
 /* object-fit: contain; за исключением указания этого св-ва, но тогда картинка смещается вниз, хоть и сохраняет пропорции */
