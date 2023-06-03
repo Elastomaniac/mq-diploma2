@@ -240,7 +240,6 @@ p {
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-
   max-width: 1200px;
   padding: 50px 15px 0;
 }
@@ -583,17 +582,17 @@ p {
 /* ================ TAGS SECTION ================ */
 
 .tags {
-  margin-top: 61px;
+  /* margin-top: 61px; */
 }
 
 .tags-title {
-  margin-top: -2px;
+  /* margin-top: -2px; */
   font-size: 14px;
   text-transform: uppercase;
   color: #0f0d0e;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
 }
 
 .tags-title::after {
