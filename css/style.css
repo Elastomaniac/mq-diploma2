@@ -797,7 +797,7 @@ p {
 /* ================ FOOTER ================ */
 
 .footer {
-  margin-top: 64px;
+  margin-top: 90px;
 }
 
 .footer-wrapper {
@@ -827,17 +827,17 @@ p {
 }
 
 .footer-dribble {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-dribbble.svg);
+  background-image: url(../sources/svg/001-dribbble.svg);
   color: black;
 }
 
 .footer-pinterest {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-pinterest.svg);
+  background-image: url(../sources/svg/001-pinterest.svg);
   color: black;
 }
 
 .footer-tumblr {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+  background-image: url(../sources/svg/003-tumblr.svg);
 }
 
 /* ================ COPYRIGHT ================ */
