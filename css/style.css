@@ -728,6 +728,7 @@ p {
   text-transform: uppercase;
   color: #0f0d0e;
   font-weight: 700;
+  margin-bottom: 3px;
 }
 
 .products-description {
@@ -741,6 +742,7 @@ p {
 }
 
 .products-card {
+  margin-top: 10px;
   display: flex;
   width: 300px;
   flex-direction: column;
@@ -768,6 +770,7 @@ p {
 .price-button-block {
   display: flex;
   justify-content: space-between;
+  margin-top: 25px;
 }
 
 .old-price {
@@ -789,6 +792,7 @@ p {
   color: white;
   width: 140px;
   height: 49px;
+  text-transform: uppercase;
 }
 /* ================ FOOTER ================ */
 
