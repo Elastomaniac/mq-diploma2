@@ -9,6 +9,35 @@
   </head>
 
   <body>
+    <div id="popup" class="popup">
+      <div class="popup-body">
+        <form class="popup-content">
+          <a href="" class="popup-close"></a>
+          <div class="popup-title">Ваш ФИДБЕк</div>
+          <p class="popup-how-often">Как часто вы заходите на сайт?</p>
+          <select class="select" name="select">
+            <option class="option" value="option" selected>Почти каждый день</option>
+          </select>
+          <p class="email-sendings">Вы подписаны на e-mail рассылку?</p>
+          <div class="radio-block">
+            <input type="radio" name="radio" value="Yes" checked />Да
+            <input type="radio" name="radio" value="No" />Нет
+          </div>
+          <label for="textarea">
+            Расскажите, какой контент вы хотели бы видеть на нашем сайте?
+            <input
+              id="textarea"
+              class="textarea"
+              name="textarea"
+              type="textarea"
+              placeholder="Может, больше рецептов?"
+              rows="10"
+            />
+          </label>
+          <button class="popup-button" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
     <header class="header">
       <div class="container">
         <div class="header-top">
