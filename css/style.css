@@ -770,6 +770,7 @@ p {
 .price-button-block {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 25px;
 }
 
@@ -852,6 +853,10 @@ p {
 }
 
 /* ================ POPUP ================ */
+
+._hidden {
+  display: none;
+}
 
 .popup {
   position: relative;
@@ -954,4 +959,10 @@ p {
   border: none;
   margin-bottom: 24px;
   cursor: pointer;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  
 }

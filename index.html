@@ -9,19 +9,29 @@
   </head>
 
   <body>
-    <div id="popup" class="popup">
+    <div id="popup" class="popup _hidden">
       <div class="popup-body">
         <form class="popup-content">
           <a href="" class="popup-close"></a>
           <div class="popup-title">Ваш ФИДБЕк</div>
           <p class="popup-how-often">Как часто вы заходите на сайт?</p>
           <select class="select" name="select">
-            <option class="option" value="option" selected>Почти каждый день</option>
+            <option class="option" value="option" selected>
+              Почти каждый день
+            </option>
           </select>
           <p class="email-sendings">Вы подписаны на e-mail рассылку?</p>
           <div class="radio-block">
-            <input type="radio" name="radio" value="Yes" checked />Да
-            <input type="radio" name="radio" value="No" />Нет
+            <input
+              id="radio-yes"
+              type="radio"
+              name="radio"
+              value="Yes"
+              checked
+            />
+            <label for="radio-yes">Да</label>
+            <input id="radio-no" type="radio" name="radio" value="No" />
+            <label for="radio-no">Нет</label>
           </div>
           <label class="label-textarea" for="textarea">
             Расскажите, какой контент вы хотели бы видеть на нашем сайте?
