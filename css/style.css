@@ -191,21 +191,29 @@ p {
   z-index: 3;
   color: #ffffff;
   border: 3px solid #b59f5b;
-  padding-left: 38px;
-  padding-bottom: 12px;
+  /* padding-left: 38px;
+  padding-bottom: 12px; */
 
-  padding-top: 19px;
+  padding: 19px 15px 12px 38px;
+
+  /* padding-top: 19px;
+  padding-right: 15px; */
   /* после 1 ответа */
 }
 
 .trends-inner:hover {
   color: #b59f5b;
 }
+
 .inner-title {
   text-transform: uppercase;
   font-size: 20px;
   line-height: 24px;
   padding-right: 15px;
+}
+
+.inner-title-anchor {
+  color: #ffffff;
 }
 
 .trends-card {
@@ -229,7 +237,11 @@ p {
   background-image: url(../sources/img/trend4.jpg);
 }
 
-.span-inner-tag {
+.inner-tag {
+  display: inline-block;
+}
+
+.inner-tag {
   font-size: 14px;
   /* line-height: 40px;
   после 1 ответа */
@@ -239,8 +251,12 @@ p {
   margin-right: 12px;
 }
 
-.span-inner-tag:hover {
+.inner-tag:hover {
   text-decoration: underline;
+}
+
+.inner-anchor {
+  color: #b59f5b;
 }
 /* ================ MAIN ================ */
 
