@@ -91,6 +91,10 @@ p {
   z-index: 3;
 }
 
+.burger {
+  display: none;
+}
+
 .nav {
 }
 
@@ -161,7 +165,7 @@ p {
 
 .trends-card {
   position: relative;
-  width: 410px;
+  max-width: 410px;
   height: 319px;
   display: flex;
   align-items: flex-end;
@@ -854,7 +858,7 @@ p {
 
 /* ================ POPUP ================ */
 
-._hidden {
+.hidden {
   display: none;
 }
 
@@ -961,8 +965,48 @@ p {
   cursor: pointer;
 }
 
-
-
 @media (min-width: 768px) and (max-width: 1199px) {
-  
+  .header:before {
+    z-index: 2;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .header {
+    position: relative;
+    z-index: 3;
+    background-image: url(../sources/img/banner-bg-tablet.jpg);
+    background-repeat: no-repeat;
+    height: 455px;
+    background-size: cover;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .header-top {
+    justify-content: space-between;
+  }
+
+  .trends-card {
+    
+  }
 }
