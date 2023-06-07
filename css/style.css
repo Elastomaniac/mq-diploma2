@@ -193,6 +193,9 @@ p {
   border: 3px solid #b59f5b;
   padding-left: 38px;
   padding-bottom: 12px;
+
+  padding-top: 19px;
+  /* после 1 ответа */
 }
 
 .trends-inner:hover {
@@ -227,7 +230,8 @@ p {
 
 .span-inner-tag {
   font-size: 14px;
-  line-height: 40px;
+  /* line-height: 40px;
+  после 1 ответа */
   text-transform: uppercase;
   color: #b59f5b;
   font-weight: 700;
@@ -388,8 +392,10 @@ p {
 
 .aside {
   width: 272px;
-  display: flex;
+
+  /* display: flex;
   flex-wrap: wrap;
+  после 1 ответа */
 }
 
 .aside-title {
@@ -409,6 +415,9 @@ p {
   height: 3px;
   width: 66px;
   background-color: #e1d9bd;
+}
+
+.aside-section-card {
 }
 
 .aside-card {
@@ -447,7 +456,7 @@ p {
 }
 
 .aside-text {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .aside-strange-one {
@@ -536,6 +545,7 @@ p {
 
 /* ================ MAILING LIST FORM ================ */
 .mailing-list {
+  margin-top: 60px;
 }
 
 .mailing-list-title {
@@ -544,7 +554,9 @@ p {
   text-transform: uppercase;
   color: #0f0d0e;
   font-weight: 700;
-  margin: 0;
+
+  margin-bottom: 23px;
+  /* после 1 ответа */
 }
 
 .mailing-list-title::after {
@@ -586,7 +598,8 @@ p {
 /* ================ TAGS SECTION ================ */
 
 .tags {
-  /* margin-top: 61px; */
+  margin-top: 60px;
+  /* после 1 ответа */
 }
 
 .tags-title {
@@ -1007,6 +1020,5 @@ p {
   }
 
   .trends-card {
-    
   }
 }
