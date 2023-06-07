@@ -565,7 +565,25 @@
       <h2 class="products-title">Наши изделия</h2>
       <div class="products-wrapper">
         <div class="products-card">
-          <div class="products-img1"></div>
+          <picture class="products-card-picture">
+            <source
+              media="(min-width: 1200px)"
+              srcset="./sources/img/shop-item-desk1.jpg"
+            />
+            <source
+              media="(min-width: 769px)"
+              srcset="./sources/img/shop-item-tablet1.jpg"
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="./sources/img/shop-item-mobile1.jpg"
+            />
+            <img
+              class="products-card-img"
+              src="./sources/img/shop-item-desk1.jpg"
+              alt="a pillow with print"
+            />
+          </picture>
           <div class="products-inner">
             <h3 class="products-inner-title">подушки на диван</h3>
             <p class="products-description">
@@ -582,7 +600,24 @@
           </div>
         </div>
         <div class="products-card">
-          <div class="products-img2"></div>
+          <source
+              media="(min-width: 1200px)"
+              srcset="./sources/img/shop-item-desk2.jpg"
+            />
+            <source
+              media="(min-width: 769px)"
+              srcset="./sources/img/shop-item-tablet2.jpg"
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="./sources/img/shop-item-mobile2.jpg"
+            />
+            <img
+              class="products-card-img"
+              src="./sources/img/shop-item-desk2.jpg"
+              alt="a rabbit doll"
+            />
+          </picture>
           <div class="products-inner">
             <h3 class="products-inner-title">Кукла «Зайчик»</h3>
             <p class="products-description">
@@ -599,7 +634,25 @@
           </div>
         </div>
         <div class="products-card">
-          <div class="products-img3"></div>
+          <source
+              media="(min-width: 1200px)"
+              srcset="./sources/img/shop-item-desk3.jpg"
+            />
+            <source
+              media="(min-width: 769px)"
+              srcset="./sources/img/shop-item-tablet3.jpg"
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="./sources/img/shop-item-mobile3.jpg"
+            />
+            <img
+              class="products-card-img"
+              src="./sources/img/shop-item-desk3.jpg"
+              alt="hexagonal frame"
+            />
+          </picture>
+          <!-- <div class="products-img3"></div> -->
           <div class="products-inner">
             <h3 class="products-inner-title">Шестиугольная рамка</h3>
             <p class="products-description">

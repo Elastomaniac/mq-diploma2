@@ -784,9 +784,9 @@ p {
 }
 
 .products-img1 {
-  background-image: url(../sources/img/shop-item-desk1.jpg);
+  /* background-image: url(../sources/img/shop-item-desk1.jpg);
   width: 300px;
-  height: 204px;
+  height: 204px; */
 }
 
 .products-img2 {
