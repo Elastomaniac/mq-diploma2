@@ -452,25 +452,25 @@ p {
   height: 70px;
 }
 
-.aside-img1 {
-  /* background-image: url(../sources/img/2.jpg); */
+/* .aside-img1 {
+  background-image: url(../sources/img/2.jpg);
 }
 
 .aside-img2 {
-  /* background-image: url(../sources/img/151.jpg); */
+  background-image: url(../sources/img/151.jpg);
 }
 
 .aside-img3 {
-  /* background-image: url(../sources/img/45.jpg); */
+  background-image: url(../sources/img/45.jpg);
 }
 
 .aside-img4 {
-  /* background-image: url(../sources/img/501.jpg); */
+  background-image: url(../sources/img/501.jpg);
 }
 
 .aside-img5 {
-  /* background-image: url(../sources/img/7.jpg); */
-}
+  background-image: url(../sources/img/7.jpg);
+} */
 
 .aside-text {
   margin-left: 20px;
@@ -890,7 +890,7 @@ p {
 /* ================ POPUP ================ */
 
 .hidden {
-  /* display: none; */
+  display: none;
 }
 
 .popup {
@@ -1006,6 +1006,8 @@ p {
   margin-bottom: 24px;
   cursor: pointer;
 }
+
+/* =================MEDIA============= */
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .header:before {
