@@ -191,10 +191,9 @@ p {
   z-index: 3;
   color: #ffffff;
   border: 3px solid #b59f5b;
+  padding: 19px 15px 12px 38px;
   /* padding-left: 38px;
   padding-bottom: 12px; */
-
-  padding: 19px 15px 12px 38px;
 
   /* padding-top: 19px;
   padding-right: 15px; */
@@ -890,7 +889,7 @@ p {
 /* ================ POPUP ================ */
 
 .hidden {
-  display: none;
+  /* display: none; */
 }
 
 .popup {
@@ -984,6 +983,7 @@ p {
 }
 
 .textarea {
+  font-family: "Open Sans", sans-serif;
   background-color: #f4f7f6;
   border: none;
   width: 100%;
