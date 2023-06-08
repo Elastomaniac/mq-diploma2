@@ -21,17 +21,21 @@
             </option>
           </select>
           <p class="email-sendings">Вы подписаны на e-mail рассылку?</p>
-          <div class="radio-block">
-            <input
-              id="radio-yes"
-              type="radio"
-              name="radio"
-              value="Yes"
-              checked
-            />
-            <label for="radio-yes">Да</label>
-            <input id="radio-no" type="radio" name="radio" value="No" />
-            <label for="radio-no">Нет</label>
+          <div class="popup-radio-block">
+            <div class="radio-group">
+              <input class="radio1"
+                id="radio-yes"
+                type="radio"
+                name="radio"
+                value="Yes"
+                checked
+              />
+              <label class="label-radio-yes" for="radio-yes">Да</label>
+            </div>
+            <div class="radio-group">
+              <input class="radio1" id="radio-no" type="radio" name="radio" value="No" />
+              <label  class="label-radio-no"for="radio-no">Нет</label>
+            </div>
           </div>
           <label class="label-textarea" for="textarea">
             Расскажите, какой контент вы хотели бы видеть на нашем сайте?
@@ -39,7 +43,7 @@
               id="textarea"
               class="textarea"
               name="textarea"
-              type="textarea"
+              type="textarea"x
               placeholder="Может, больше рецептов?"
               rows="10"
             /> -->
