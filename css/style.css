@@ -285,30 +285,30 @@ p {
 }
 
 .card-img {
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   width: 381px;
   height: 294px;
 }
 
-.card-img1 {
-  /* background-image: url(../sources/img/last-post1.jpg); */
+/* .card-img1 {
+  background-image: url(../sources/img/last-post1.jpg);
 }
 
 .card-img2 {
-  /* background-image: url(../sources/img/last-post2.jpg); */
+  background-image: url(../sources/img/last-post2.jpg);
 }
 
 .card-img3 {
-  /* background-image: url(../sources/img/last-post3.jpg); */
+  background-image: url(../sources/img/last-post3.jpg);
 }
 
 .card-img4 {
-  /* background-image: url(../sources/img/last-post4.jpg); */
+  background-image: url(../sources/img/last-post4.jpg);
 }
 
 .card-img5 {
-  /* background-image: url(../sources/img/last-post5.jpg); */
-}
+  background-image: url(../sources/img/last-post5.jpg);
+} */
 /* object-fit: contain; */
 /* height: 294px; */
 
@@ -889,7 +889,7 @@ p {
 /* ================ POPUP ================ */
 
 .hidden {
-  /* display: none; */
+  display: none;
 }
 
 .popup {
@@ -970,7 +970,7 @@ p {
 
 .email-sendings {
   margin-top: 27px;
-  margin-bottom: 11px;
+  margin-bottom: 7px;
   font-size: 13px;
 }
 
@@ -1000,9 +1000,6 @@ p {
 .label-radio-no::before {
   content: "";
   display: inline-block;
-
-  vertical-align: middle;
-  /* margin-right: 8px; */
 
   width: 20px;
   height: 20px;
@@ -1044,28 +1041,15 @@ p {
 
 /* =================MEDIA============= */
 
-@media (min-width: 768px) and (max-width: 1199px) {
-  .header:before {
-    z-index: 2;
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+@media (min-width: 641px) and (max-width: 1199px) {
+  .header {
+    background-image: url(../sources/img/banner-bg-tablet.jpg);
+    height: 392px;
   }
 
-  .header {
-    position: relative;
-    z-index: 3;
-    background-image: url(../sources/img/banner-bg-tablet.jpg);
-    background-repeat: no-repeat;
-    height: 455px;
-    background-size: cover;
+  h1 {
+    padding-top: 86px;
+    padding-left: 42px;
   }
 
   .nav {
@@ -1073,18 +1057,60 @@ p {
   }
 
   .burger {
+    position: relative;
+    z-index: 3;
     display: block;
+    padding-top: 10px;
+    padding-right: 15px;
   }
 
   .h1 {
     font-size: 40px;
     line-height: 55px;
+    padding-top: 86px;
   }
 
   .header-top {
     justify-content: space-between;
   }
 
+  .logo {
+    width: 158px;
+    left: 20px;
+    top: 4px;
+  }
+
+  .trends {
+    padding-top: 29px;
+  }
+
+  .trends-cards-block {
+    flex-wrap: wrap;
+  }
+
   .trends-card {
+    min-width: calc(50% - 2px);
+    height: 247px;
+  }
+
+  .trends-title {
+    font-size: 18px;
+  }
+
+  .trends-title::after {
+    margin-bottom: 5px;
+  }
+
+  .inner-title {
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .main-container {
+    max-width: 768px;
+  }
+
+  .main {
+    flex-grow: 1;
   }
 }

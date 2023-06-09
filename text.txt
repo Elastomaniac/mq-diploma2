@@ -1,0 +1,71 @@
+<!-- <article class="main-card">
+          <img
+            src="https://netology-code.github.io/html-2-diploma/sources/images/last-post6.jpg"
+            alt=""
+            class="card-img"
+          />
+          <div class="card-text">
+            <ul class="card-list-links">
+              <li class="card-list-link">
+                <a href="#0" class="card-link">travel</a>
+              </li>
+              <li class="card-list-link">
+                <a href="#0" class="card-link">lifestyle</a>
+              </li>
+            </ul>
+            <h2 class="card-title">
+              <a href="#0" class="title-link"
+                >Как первый раз отправиться в горы?</a
+              >
+            </h2>
+            <div class="date">
+              <time datetime="2019-06-10" class="datetime">10 июня 2019</time>
+              <address class="author">Неизвестный автор</address>
+            </div>
+            <div class="description-container">
+              <p class="description">
+                Лля начала нужно определиться, в каком формате пройдёт ваше
+                путешествие. Это зависит от многих факторов, не только от ваших
+                желаний и интересов.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="main-card">
+          <img
+            src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg"
+            alt="food"
+            class="card-img"
+          />
+          <div class="card-text">
+            <ul class="card-list-links">
+              <li class="card-list-link">
+                <a href="#0" class="card-link">lifestyle</a>
+              </li>
+              <li class="card-list-link">
+                <a href="#0" class="card-link">food</a>
+              </li>
+            </ul>
+            <h2 class="card-title">
+              <a href="#0" class="title-link">Наукоёмкий подход к кулинарии</a>
+            </h2>
+            <div class="date">
+              <time datetime="2019-06-10" class="datetime">10 июня 2019</time>
+              <address class="author">Неизвестный автор</address>
+            </div>
+            <div class="description-container">
+              <p class="description">
+                Узнаем основы проектирования новых пищевых и около-пищевых
+                опытов, вскроем физику, химию и микробиологию еды.
+              </p>
+            </div>
+          </div>
+        </article> -->
+        строка 333
+
+
+<!-- <div class="products-img3"></div> -->
+строка 589
+
+не совсем понятно, как сделать карточки trends
