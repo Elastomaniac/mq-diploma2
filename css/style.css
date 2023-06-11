@@ -1113,4 +1113,18 @@ p {
   .main {
     flex-grow: 1;
   }
+
+  .main-card {
+    display: block;
+  }
+
+  .card-img {
+    width: 392px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
+  .trends-cards-block {
+    /* flex-wrap: nowrap; */
+  }
 }
