@@ -1175,8 +1175,39 @@ p {
 
   /* =================MEDIA-ASIDE============= */
 
+  .aside-card {
+    margin-bottom: 18px;
+  }
+
+  .aside-card-title {
+    margin-top: 0;
+  }
+
   .aside-card-link {
-    letter-spacing: -0.1px;
+    letter-spacing: -0.2px;
+  }
+
+  .aside-text {
+    margin-left: 19px;
+  }
+
+  /* =================MEDIA-SEARCH============= */
+
+  .aside-card:last-of-type {
+    margin-bottom: 56px;
+  }
+
+  .search {
+    padding-left: 17px;
+  }
+
+  .mailing-list {
+    margin-top: 57px;
+  }
+
+  .mailing-list-title {
+    margin-bottom: 19px;
+    margin-left: -5px;
   }
 }
 
