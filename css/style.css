@@ -1215,7 +1215,6 @@ p {
 
   .products-wrapper {
     flex-wrap: wrap;
-    justify-content: space-between;
     max-width: 730px;
   }
 
