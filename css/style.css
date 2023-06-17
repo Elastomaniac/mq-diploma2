@@ -1211,23 +1211,40 @@ p {
     margin-left: -5px;
   }
 
+  /* =================MEDIA-PRODUCTS============= */
+
   .products-wrapper {
     flex-wrap: wrap;
-    max-width: 1199px;
-    justify-content: space-around;
+    justify-content: space-between;
+    max-width: 730px;
   }
 
   .products-title {
     letter-spacing: -1.4px;
   }
+
+  .products-inner-title {
+    font-size: 17px;
+  }
+
+  .btn-to-shop {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  /* =================MEDIA-FOOTER============= */
+
+  .footer-wrapper {
+    max-width: 699px;
+  }
 }
 
 @media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
   .trends-cards-block {
-    /* flex-wrap: nowrap; */
+    flex-wrap: nowrap;
   }
 
   .trends-card {
-    /* min-width: calc(25% - 4px); */
+    min-width: calc(25% - 4px);
   }
 }
