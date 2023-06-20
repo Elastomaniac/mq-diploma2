@@ -281,7 +281,9 @@ p {
 }
 
 .main-card:not(:last-child) {
-  margin-bottom: 60px;
+  margin-bottom: 41px;
+  border-bottom: 4px solid #eeeeee;
+  padding-bottom: 17px;
 }
 
 .card-img {
@@ -775,7 +777,7 @@ p {
 .products-card {
   margin-top: 10px;
   display: flex;
-  width: 300px;
+  width: 27%;
   flex-direction: column;
   background-repeat: no-repeat;
 }
@@ -1218,6 +1220,14 @@ p {
     max-width: 730px;
   }
 
+  .products-card {
+    margin-top: 10px;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    background-repeat: no-repeat;
+  }
+
   .products-title {
     letter-spacing: -1.4px;
   }
@@ -1238,12 +1248,13 @@ p {
   }
 }
 
-@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
+/* @media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
   .trends-cards-block {
     flex-wrap: nowrap;
   }
 
   .trends-card {
     min-width: calc(25% - 4px);
+    min-height: 247px;
   }
-}
+} */
