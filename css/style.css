@@ -891,7 +891,7 @@ p {
 /* ================ POPUP ================ */
 
 .hidden {
-  /* display: none; */
+  display: none;
 }
 
 .popup {
@@ -1023,7 +1023,7 @@ p {
   background-image: url(../sources/svg/form-empty-circle.svg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 20px;
+  background-size: 17px;
 }
 
 .label-textarea {
@@ -1056,9 +1056,38 @@ p {
 }
 
 /* ================TABLET============= */
-/* ================TABLET-HEADER============= */
 
 @media (min-width: 641px) and (max-width: 1199px) {
+  /* ================TABLET-POPUP============= */
+
+  .popup-title {
+    font-size: 18px;
+  }
+
+  .radio-group:first-child {
+    margin-right: 50px;
+    margin-top: 3px;
+  }
+
+  .radio-yes,
+  .radio-no {
+    top: 5px;
+  }
+
+  .label-radio-yes::before,
+  .label-radio-no::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-size: 25px;
+  }
+
+  .radio-group:nth-of-type(n + 2) {
+    margin-left: 2px;
+  }
+
+  /* ================TABLET-HEADER============= */
+
   .header {
     background-image: url(../sources/img/banner-bg-tablet.jpg);
     height: 392px;
@@ -1139,18 +1168,23 @@ p {
   /* ================TABLET-MAIN============= */
 
   .main-container {
-    max-width: 768px;
+    max-width: 100%;
     padding: 40px 35px 0;
   }
 
   .main {
     flex-grow: 1;
     margin-top: 8px;
+
+    flex-direction: column;
+    /* ответ2 */
   }
 
   .main-card {
     display: block;
-    max-width: 392px;
+
+    max-width: 100%;
+    /* ответ2 */
   }
 
   .card-img {
@@ -1231,19 +1265,32 @@ p {
 
   .products-wrapper {
     flex-wrap: wrap;
-    max-width: 730px;
+    padding: 0 56px;
+
+    /* ответ2
+    max-width: 100%;
+    padding: 0 73px;
+    на 1199 лучше 73 */
   }
 
   .products-card {
     margin-top: 10px;
     display: flex;
-    width: 50%;
+    width: calc(50% - 100px);
     flex-direction: column;
     background-repeat: no-repeat;
+
+    margin-bottom: 30px;
+    width: calc(50% - 34px);
   }
+
+  /* .products-inner:first-child {
+    margin-right: 35px;
+  } */
 
   .products-title {
     letter-spacing: -1.4px;
+    margin-top: 80px;
   }
 
   .products-inner-title {
@@ -1258,7 +1305,11 @@ p {
   /* ================TABLET-FOOTER============ */
 
   .footer-wrapper {
-    max-width: 699px;
+    max-width: 100%;
+  }
+
+  .address {
+    margin: 0 35px;
   }
 }
 
@@ -1274,3 +1325,44 @@ p {
     min-height: 247px;
   }
 } */
+
+/* ==============MOBILE============*/
+
+@media (max-width: 640px) {
+  .header {
+    background-image: url(../sources/img/banner-mobile.jpg);
+  }
+
+  .header-top {
+    /* display: block; */
+    /* mob */
+  }
+  .nav {
+    display: none;
+  }
+
+  .burger {
+    position: relative;
+    z-index: 3;
+    display: block;
+    padding-top: 10px;
+    padding-right: 15px;
+  }
+
+  .h1 {
+    font-size: 40px;
+    line-height: 55px;
+    padding-top: 86px;
+  }
+
+  .header-top {
+    padding-top: 15px;
+    /* mob */
+  }
+
+  .logo {
+    width: 158px;
+    left: 20px;
+    top: 4px;
+  }
+}
