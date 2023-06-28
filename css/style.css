@@ -1425,9 +1425,9 @@ p {
     margin-bottom: 41px;
   }
 
-.main-card:not(:last-child) {
-  padding-bottom: 11px;
-}
+  .main-card:not(:last-child) {
+    padding-bottom: 11px;
+  }
 
   .card-img {
     width: 328px;
@@ -1467,8 +1467,76 @@ p {
     letter-spacing: 0.1px;
   }
 
+  /* ==============MOBILE-ASIDE============*/
+
+  .aside {
+    width: 100%;
+  }
+
+  .aside-title {
+    font-size: 16px;
+  }
+
+  .aside-card {
+    margin-bottom: 18px;
+  }
+
+  .aside-card:last-of-type {
+    margin-bottom: 57px;
+  }
+
+  .search {
+    width: 282px;
+  }
+
+  .mailing-list {
+    margin-top: 37px;
+  }
+
+  .mailing-list-title {
+    font-size: 16px;
+  }
+
+  .email {
+    width: 330px;
+  }
+
+  .email-button {
+    width: 330px;
+  }
+  /* ==============MOBILE-TAGS============*/
+
+  .tags {
+    margin-top: 40px;
+  }
+
+  .tags-title {
+    font-size: 16px;
+  }
+
+  .tag {
+    margin-right: 6px;
+  }
+
+  /* ==============MOBILE-THEMES============*/
+
+  .themes-title {
+    font-size: 16px;
+  }
+
+  .themes {
+    margin-top: 40px;
+  }
+
   /* ==============MOBILE-PRODUCTS============*/
 
+  .products {
+    margin-top: 45px;
+  }
+
+  .products-title {
+    font-size: 16px;
+  }
   .products-card {
     width: 100%;
   }
