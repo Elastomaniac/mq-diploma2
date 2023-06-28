@@ -1420,11 +1420,14 @@ p {
 
   .main-card {
     flex-direction: column;
+    border-bottom: 4px solid #eeeeee;
+    padding-bottom: 11px;
+    margin-bottom: 41px;
   }
 
-  .main-card:not(:last-child) {
-    padding-bottom: 12px;
-  }
+.main-card:not(:last-child) {
+  padding-bottom: 11px;
+}
 
   .card-img {
     width: 328px;
