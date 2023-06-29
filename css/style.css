@@ -1279,13 +1279,21 @@ p {
     flex-direction: column;
     background-repeat: no-repeat;
 
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     width: calc(50% - 34px);
   }
 
   /* .products-inner:first-child {
     margin-right: 35px;
   } */
+
+  /* .products-card-picture {
+    height: 220px;
+  } */
+
+  .products-card-img {
+    height: 225px;
+  }
 
   .products-title {
     letter-spacing: -1.4px;
@@ -1302,6 +1310,9 @@ p {
   }
 
   /* ================TABLET-FOOTER============ */
+  .footer {
+    margin-top: 27px;
+  }
 
   .footer-wrapper {
     max-width: 100%;
@@ -1309,6 +1320,10 @@ p {
 
   .address {
     margin: 0 35px;
+  }
+
+  .copyright {
+    margin-top: 46px;
   }
 }
 
@@ -1539,15 +1554,32 @@ p {
   }
   .products-card {
     width: 100%;
+
+    margin-bottom: 35px;
+    /* мобилка, не уверен */
   }
 
   .products-wrapper {
     flex-wrap: wrap;
   }
 
+  .products-card-img {
+    height: 285px;
+    object-fit: cover;
+  }
+
   /* ==============MOBILE-FOOTER============*/
+
+  .footer {
+    margin-top: 28px;
+  }
 
   .footer-wrapper {
     max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .copyright {
+    margin-top: 47px;
   }
 }
