@@ -289,7 +289,7 @@ p {
 
 .card-img {
   width: 381px;
-  height: 294px;
+  /* height: 294px; */
 }
 
 /* .card-img1 {
@@ -1354,6 +1354,7 @@ p {
   .header-top {
     display: block;
     position: relative;
+    text-align: center;
     /* mob */
   }
 
@@ -1372,7 +1373,7 @@ p {
   .h1 {
     font-size: 26px;
     line-height: 36px;
-    padding-top: 240px;
+    padding-top: 30px;
   }
 
   .container {
@@ -1381,7 +1382,7 @@ p {
   }
 
   .header-top {
-    padding-top: 15px;
+    padding-top: 225px;
     /* mob */
   }
 
@@ -1390,8 +1391,8 @@ p {
     left: 20px;
     top: 4px; */
     width: 267px;
-    left: 31px;
-    top: 211px;
+    /* left: 31px;
+    top: 211px; */
   }
 
   /* ==============MOBILE-TRENDS============*/
