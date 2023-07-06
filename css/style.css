@@ -278,12 +278,13 @@ p {
 .main-card {
   display: flex;
   align-items: flex-start;
+  margin-bottom: 41px;
+  padding-bottom: 17px;
 }
 
-.main-card:not(:last-child) {
-  margin-bottom: 41px;
-  border-bottom: 4px solid #eeeeee;
-  padding-bottom: 17px;
+.main-card:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .card-img {
@@ -1174,14 +1175,14 @@ p {
   .main {
     flex-grow: 1;
     margin-top: 8px;
-
+    padding-right: 35px;
     flex-direction: column;
     /* ответ2 */
   }
 
   .main-card {
     display: block;
-
+    border-bottom: 4px solid #eeeeee;
     max-width: 100%;
     /* ответ2 */
   }
@@ -1292,7 +1293,8 @@ p {
   } */
 
   .products-card-img {
-    height: 225px;
+    /* height: 225px; */
+    width: 100%;
   }
 
   .products-title {
@@ -1440,9 +1442,9 @@ p {
     padding-bottom: 11px;
   }
 
-  .main-card:not(:last-child) {
-    padding-bottom: 11px;
-  }
+  /* .main-card:last-child {
+    padding-bottom: 19px;
+  } */
 
   .card-img {
     width: 328px;
@@ -1564,8 +1566,9 @@ p {
   }
 
   .products-card-img {
-    height: 285px;
-    object-fit: cover;
+    /* height: 285px; */
+    /* object-fit: cover; */
+    width: 100%;
   }
 
   /* ==============MOBILE-FOOTER============*/
