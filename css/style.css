@@ -1598,3 +1598,16 @@ p {
     margin-top: 47px;
   }
 }
+
+/* ==============MOBILE-LANDSCAPE============*/
+
+/* @media (max-width: 640px) and (orientation: landscape) {
+  .trends-cards-block {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .trends-card {
+    max-width: calc(50% - 2px);
+  }
+} */
