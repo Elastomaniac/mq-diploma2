@@ -1188,8 +1188,8 @@ p {
   }
 
   .card-img {
-    width: 392px;
-    height: 302.484px;
+    width: 100%;
+    object-fit: cover;
   }
 
   .card-text {
@@ -1198,7 +1198,7 @@ p {
   }
 
   .card-title {
-    max-width: 392px;
+    max-width: 100%;
   }
 
   .title-link {
@@ -1417,6 +1417,7 @@ p {
 
   .trends-inner {
     padding-left: 16px;
+    width: 100%;
   }
 
   .inner-title {
@@ -1442,13 +1443,19 @@ p {
     padding-bottom: 11px;
   }
 
+  .main-figure {
+    width: 100%;
+  }
+
   /* .main-card:last-child {
     padding-bottom: 19px;
   } */
 
   .card-img {
-    width: 328px;
-    height: 255px;
+    /* width: 328px;
+    height: 255px; */
+    width: 100%;
+    object-fit: cover;
   }
 
   .card-text {
@@ -1488,6 +1495,7 @@ p {
 
   .aside {
     width: 100%;
+    margin-top: 54px;
   }
 
   .aside-title {
@@ -1501,9 +1509,12 @@ p {
   .aside-card:last-of-type {
     margin-bottom: 57px;
   }
+  .label-search {
+    width: 100%;
+  }
 
   .search {
-    width: 282px;
+    width: 100%;
   }
 
   .mailing-list {
@@ -1515,11 +1526,11 @@ p {
   }
 
   .email {
-    width: 330px;
+    width: 100%;
   }
 
   .email-button {
-    width: 330px;
+    width: 100%;
   }
   /* ==============MOBILE-TAGS============*/
 
