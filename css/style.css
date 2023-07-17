@@ -48,6 +48,7 @@ p {
 }
 
 /* ================ HEADER ================ */
+
 .header:before {
   z-index: 2;
   content: "";
@@ -192,12 +193,6 @@ p {
   color: #ffffff;
   border: 3px solid #b59f5b;
   padding: 19px 15px 12px 38px;
-  /* padding-left: 38px;
-  padding-bottom: 12px; */
-
-  /* padding-top: 19px;
-  padding-right: 15px; */
-  /* после 1 ответа */
 }
 
 .trends-inner:hover {
@@ -242,8 +237,6 @@ p {
 
 .inner-tag {
   font-size: 14px;
-  /* line-height: 40px;
-  после 1 ответа */
   text-transform: uppercase;
   color: #b59f5b;
   font-weight: 700;
@@ -257,6 +250,7 @@ p {
 .inner-anchor {
   color: #b59f5b;
 }
+
 /* ================ MAIN ================ */
 
 .main-container {
@@ -289,33 +283,7 @@ p {
 
 .card-img {
   width: 381px;
-  /* height: 294px; */
 }
-
-/* .card-img1 {
-  background-image: url(../sources/img/last-post1.jpg);
-}
-
-.card-img2 {
-  background-image: url(../sources/img/last-post2.jpg);
-}
-
-.card-img3 {
-  background-image: url(../sources/img/last-post3.jpg);
-}
-
-.card-img4 {
-  background-image: url(../sources/img/last-post4.jpg);
-}
-
-.card-img5 {
-  background-image: url(../sources/img/last-post5.jpg);
-} */
-/* object-fit: contain; */
-/* height: 294px; */
-
-/* test не уверен, что стоит задавать картинке жесткие размеры(высоту), но без указания высоты при удалении вех блоков, расположенных ниже она тянется вниз, искажая пропорции */
-/* object-fit: contain; за исключением указания этого св-ва, но тогда картинка смещается вниз, хоть и сохраняет пропорции */
 
 .card-text {
   margin-left: 30px;
@@ -386,9 +354,7 @@ p {
   display: inline-block;
   font-style: normal;
   letter-spacing: 0.5px;
-
   word-break: break-all;
-  /* test добавил на случай длинного имени, оно "спрыгивает" ниже даты, если длинное, аналогично ведет себя при очень длинном тексте даты */
 }
 
 .description-container {
@@ -402,10 +368,6 @@ p {
   color: #0f0d0e;
 }
 
-/* .description-container > p:not(:last-child) {
-  margin-bottom: 10px;
-} */
-
 .description:not(:last-child) {
   margin-bottom: 10px;
 }
@@ -414,10 +376,6 @@ p {
 
 .aside {
   width: 272px;
-
-  /* display: flex;
-  flex-wrap: wrap;
-  после 1 ответа */
 }
 
 .aside-title {
@@ -439,9 +397,6 @@ p {
   background-color: #e1d9bd;
 }
 
-.aside-section-card {
-}
-
 .aside-card {
   align-items: flex-start;
   display: flex;
@@ -457,33 +412,12 @@ p {
   height: 70px;
 }
 
-/* .aside-img1 {
-  background-image: url(../sources/img/2.jpg);
-}
-
-.aside-img2 {
-  background-image: url(../sources/img/151.jpg);
-}
-
-.aside-img3 {
-  background-image: url(../sources/img/45.jpg);
-}
-
-.aside-img4 {
-  background-image: url(../sources/img/501.jpg);
-}
-
-.aside-img5 {
-  background-image: url(../sources/img/7.jpg);
-} */
-
 .aside-text {
   margin-left: 20px;
 }
 
 .aside-strange-one {
   height: 70px;
-  /* -костыльный метод в рамках ПиксПерф, картинка вслед за текстом была почему-то прямоугольной */
 }
 
 .aside-datetime {
@@ -524,7 +458,6 @@ p {
 
 .search {
   width: 221px;
-  /* ширина-костыль */
   padding: 6px 19px;
   height: 48px;
   border: none;
@@ -562,6 +495,7 @@ p {
 }
 
 /* ================ MAILING LIST FORM ================ */
+
 .mailing-list {
   margin-top: 60px;
 }
@@ -572,9 +506,7 @@ p {
   text-transform: uppercase;
   color: #0f0d0e;
   font-weight: 700;
-
   margin-bottom: 23px;
-  /* после 1 ответа */
 }
 
 .mailing-list-title::after {
@@ -617,17 +549,14 @@ p {
 
 .tags {
   margin-top: 60px;
-  /* после 1 ответа */
 }
 
 .tags-title {
-  /* margin-top: -2px; */
   font-size: 14px;
   text-transform: uppercase;
   color: #0f0d0e;
   font-weight: 700;
   text-align: center;
-  /* margin-bottom: 24px; */
 }
 
 .tags-title::after {
@@ -721,7 +650,6 @@ p {
 
 .products {
   margin-top: 68px;
-  /* margin-top: 0-16px не отображается */
 }
 
 .products-title {
@@ -782,24 +710,6 @@ p {
   background-repeat: no-repeat;
 }
 
-.products-img1 {
-  /* background-image: url(../sources/img/shop-item-desk1.jpg);
-  width: 300px;
-  height: 204px; */
-}
-
-.products-img2 {
-  background-image: url(../sources/img/shop-item-desk2.jpg);
-  width: 300px;
-  height: 204px;
-}
-
-.products-img3 {
-  background-image: url(../sources/img/shop-item-desk3.jpg);
-  width: 300px;
-  height: 204px;
-}
-
 .price-button-block {
   display: flex;
   justify-content: space-between;
@@ -831,6 +741,7 @@ p {
   height: 49px;
   text-transform: uppercase;
 }
+
 /* ================ FOOTER ================ */
 
 .footer {
@@ -965,9 +876,6 @@ p {
   background-repeat: no-repeat;
   background-size: 10px;
   width: 100%;
-}
-
-.option {
 }
 
 .email-sendings {
@@ -1109,9 +1017,6 @@ p {
     font-size: 40px;
     line-height: 55px;
     padding-top: 86px;
-    /*
-    padding-left: 42px; 
-    ответ*/
   }
 
   .header-top {
@@ -1144,7 +1049,6 @@ p {
     padding-left: 32px;
 
     width: 100%;
-    /* ответ */
   }
 
   .trends-title {
@@ -1162,7 +1066,6 @@ p {
   }
 
   .title-small {
-    /* width: 240px; */
   }
 
   /* ================TABLET-MAIN============= */
@@ -1177,14 +1080,12 @@ p {
     margin-top: 8px;
     padding-right: 35px;
     flex-direction: column;
-    /* ответ2 */
   }
 
   .main-card {
     display: block;
     border-bottom: 4px solid #eeeeee;
     max-width: 100%;
-    /* ответ2 */
   }
 
   .card-img {
@@ -1266,11 +1167,6 @@ p {
   .products-wrapper {
     flex-wrap: wrap;
     padding: 0 56px;
-
-    /* ответ2
-    max-width: 100%;
-    padding: 0 73px;
-    на 1199 лучше 73 */
   }
 
   .products-card {
@@ -1284,16 +1180,7 @@ p {
     width: calc(50% - 34px);
   }
 
-  /* .products-inner:first-child {
-    margin-right: 35px;
-  } */
-
-  /* .products-card-picture {
-    height: 220px;
-  } */
-
   .products-card-img {
-    /* height: 225px; */
     width: 100%;
   }
 
@@ -1312,6 +1199,7 @@ p {
   }
 
   /* ================TABLET-FOOTER============ */
+
   .footer {
     margin-top: 27px;
   }
@@ -1355,7 +1243,6 @@ p {
     display: block;
     position: relative;
     text-align: center;
-    /* mob */
   }
 
   .nav {
@@ -1383,16 +1270,10 @@ p {
 
   .header-top {
     padding-top: 225px;
-    /* mob */
   }
 
   .logo {
-    /* width: 158px;
-    left: 20px;
-    top: 4px; */
     width: 267px;
-    /* left: 31px;
-    top: 211px; */
   }
 
   /* ==============MOBILE-TRENDS============*/
@@ -1448,13 +1329,7 @@ p {
     width: 100%;
   }
 
-  /* .main-card:last-child {
-    padding-bottom: 19px;
-  } */
-
   .card-img {
-    /* width: 328px;
-    height: 255px; */
     width: 100%;
     object-fit: cover;
   }
@@ -1463,7 +1338,6 @@ p {
     margin-left: 0;
 
     margin-top: -8px;
-    /* мобилка, не уверен */
   }
 
   .title-link {
@@ -1474,7 +1348,6 @@ p {
 
   .date {
     margin-top: -6px;
-    /* мобилка, не уверен */
   }
 
   .author {
@@ -1533,6 +1406,7 @@ p {
   .email-button {
     width: 100%;
   }
+
   /* ==============MOBILE-TAGS============*/
 
   .tags {
@@ -1570,7 +1444,6 @@ p {
     width: 100%;
 
     margin-bottom: 35px;
-    /* мобилка, не уверен */
   }
 
   .products-wrapper {
@@ -1578,8 +1451,6 @@ p {
   }
 
   .products-card-img {
-    /* height: 285px; */
-    /* object-fit: cover; */
     width: 100%;
   }
 
